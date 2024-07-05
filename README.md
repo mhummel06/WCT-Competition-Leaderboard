@@ -5,9 +5,23 @@ Elo-based player rating for World Chase Tag sport.
 
 I use Google's Colab to operate on Google Sheets. Colab code is written in Python. Google Sheets functions may transfer to Excel with some editing.
 
+### Colab
 My Colab code is commented. Follow the suggestions in the comments to operate on your own Google Sheet by name in your Google Drive.
 
-Copy Created 7/5/2024
+Running the Colab code will take the expected 3 columns of data from the "Data" sheet, and update or add to both the "Ratings" and "Archive" sheets. Running does not clear the Data sheet, you will need to delete anything you've already sent through before pasting more. Archive will be appended to at the end.
+
+### Sheets
+The Google Sheet's mandatory tabs are Ratings, Data, and Archive.
+
+"Player Record" is a new tab for analyzing an individual player's stats and competition history. The highlighted cell contains a dropdown for editors to select any player on the Ratings leaderboard.
+
+"Pruned Rankings" is an alternative leaderboard that only includes players with at least 20 chases participated in. This exists to omit players who haven't featured enough to be past their "placement matches". Absolute rank here holds more meaning.
+
+"Copy of Archive" is an expanded Archive that is edited by hand to include some extra data. Much is incomplete.
+
+"Formula Workspace" is essentially the ReadMe for the spreadsheet.
+
+Google Sheet Copy Created 7/5/2024
 
 Only contains data from the Open League (Women's Division will be a separate project)
 
